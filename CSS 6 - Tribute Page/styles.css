@@ -1,0 +1,27 @@
+#title {
+    text-align:center;
+    font-size: 4rem;
+}
+#tribute-info {
+    text-align:center;
+    margin-top: -50px;
+}
+#img-div {
+  
+}
+#image {
+    max-width: 100%;
+    max-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    transition: FadeInOut 0 .5s;
+}
+body {
+    background-color: #338333;
+}
+h1, h2, p {
+    color:#5f2086;
+    text-align:center;
+}
+

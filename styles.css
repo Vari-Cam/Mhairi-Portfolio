@@ -1,13 +1,123 @@
+body {
+    background-color: lightblue;
+    margin: 0px;
+    padding: 0px;
+}
 .navbar {
     position: sticky;
     background-color:darkslategrey;
-}
-#welcome {
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-}
-.navigation {
+    color:darkslategray;
+    display: flex;
     align-items: center;
     justify-content:center;
+    margin: 0px;
+    padding: 0px;
+}
+#projects {
+    text-align:center;
+}
+.aboutme {
+    text-align:center;
+    background-color: lightblue;
+    height:100vh;
+}
+#square {
+    height:250px;
+    width:250px;
+    background-color:rgb(108, 175, 208);
+    rotate: 20deg;
+    border-radius: 20%;
+    justify-content: center;
+    margin: 30px auto 30px auto;
+}
+.fa-brands {
+    font-size: 30px;
+    padding: 0px 5px 0px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: green;
+}
+a:visited {
+    color: lime;
+}
+img {
+    height:150px;
+    width:225px
+}
+li {
+    list-style: none;
+}
+#welcome {
+
+}
+h1>a {
+    color: white;
+    padding: 0px 4vw 0px;
+}
+h2, p {
+    text-align: center;
+}
+#project-image {
+    position: relative;
+    margin: 4px 5px 4px 5px;
+}
+#to-do {
+    position: relative;
+    margin: 4px 5px 4px 5px;
+}
+#to-do:hover {
+    position: relative;
+    margin: 1px 2px 1px 2px;
+}
+#event-flyer {
+    position: relative;
+    margin: 4px 5px 4px 5px;
+}
+#event-flyer:hover {
+    position: relative;
+    margin: 1px 2px 1px 2px;
+}
+#job-application {
+    position: relative;
+    margin: 4px 5px 4px 5px;
+}
+#job-application:hover {
+    position: relative;
+    margin: 1px 2px 1px 2px;
+}
+#colored-boxes {
+    position: relative;
+    margin: 4px 5px 4px 5px;
+}
+#colored-boxes:hover {
+    position: relative;
+    margin: 1px 2px 1px 2px;
+}
+a>img:hover {
+    width:231px;
+    height:156px;
+}
+@media screen and (max-width: 600px) {
+    #square {
+        height:150px;
+        width:150px;
+    }
+    h1>a {
+    padding: 0px 15px 0px;
+}
+    h2 {
+        font-size: 20px;
+    }
+    img {
+        height:100px;
+        width:150px;
+    }
+    a>img:hover {
+        width: 156px;
+        height: 106px;
+    }
 }
