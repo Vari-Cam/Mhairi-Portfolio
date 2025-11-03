@@ -1,0 +1,80 @@
+body {
+    background-color: #C5915D;
+    margin: 0;
+}
+h1, h2, p, li {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: #EFDBB6;
+    text-align: center;
+}
+h2 {
+    background-color: #5d3f29;
+    
+}
+.navbar {
+    background-color: #332011;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+nav>h2 {
+    justify-content:flex-end;
+    width: 100px;
+
+}
+img {
+    height: 100vh;
+    display: block;
+    margin: auto;
+}
+.why-eevee {
+    display: grid;
+    grid-template-columns: 30vw 3;
+
+}
+li {
+    list-style-type: none;
+    margin: 5px 0 5px 0;
+}
+.adopt {
+    background-color: #332011;
+    color: #ff6200;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+.footer {
+    background-color: #332011;
+    color: #EFDBB6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+}
+#adorable {
+    width: 475px;
+    height:300px;
+}
+@media screen and (max-width: 600px) {
+    #adorable {
+        width:237.5px;
+        height:150px;
+    }
+}

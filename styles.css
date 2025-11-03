@@ -13,6 +13,9 @@ body {
     margin: 0px;
     padding: 0px;
 }
+h2 {
+    font-size: 50px;
+}
 #projects {
     text-align:center;
 }
@@ -42,7 +45,7 @@ a:hover {
     color: green;
 }
 a:visited {
-    color: lime;
+    color: grey;
 }
 img {
     height:150px;
@@ -60,6 +63,9 @@ h1>a {
 }
 h2, p {
     text-align: center;
+}
+.img-link {
+
 }
 #project-image {
     position: relative;
@@ -97,27 +103,56 @@ h2, p {
     position: relative;
     margin: 1px 2px 1px 2px;
 }
+#dylan {
+    position: relative;
+    margin: 4px 5px 4px 5px;
+}
+#dylan:hover {
+    position: relative;
+    margin: 1px 2px 1px 2px;
+}
+#eevee {
+    position: relative;
+    margin: 4px 5px 4px 5px;
+}
+#eevee:hover {
+    position: relative;
+    margin: 1px 2px 1px 2px;
+}
 a>img:hover {
     width:231px;
     height:156px;
 }
+#me {
+    rotate:-20deg;
+    position:relative;
+    margin:-15px 50px 0px 70px  ;
+    height:250px;
+    width:200px;
+    border-radius:20%;
+}
 @media screen and (max-width: 600px) {
     #square {
-        height:150px;
-        width:150px;
+        height:200px;
+        width:200px;
     }
     h1>a {
     padding: 0px 15px 0px;
 }
     h2 {
-        font-size: 20px;
+        font-size: 30px;
     }
     img {
         height:100px;
-        width:150px;
+        width: 150px;
     }
     a>img:hover {
         width: 156px;
         height: 106px;
+    }
+    #me {
+        margin:-15px 50px 0px 50px  ;
+    height:200px;
+    width:160px;
     }
 }

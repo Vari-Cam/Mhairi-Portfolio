@@ -20,8 +20,23 @@
 body {
     background-color: #338333;
 }
-h1, h2, p {
+h1, h2, p, li {
     color:#5f2086;
     text-align:center;
 }
-
+ul {
+    list-style: none;
+}
+li {
+    margin: 20px 0px;
+}
+#sub-title {
+    margin-top: -40px;
+}
+#more-info {
+    background-color: #5aa85a;
+    margin: 10px 0px;
+}
+.photos {
+    height: 300px;
+}
